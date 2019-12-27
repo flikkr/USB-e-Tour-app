@@ -41,7 +41,7 @@ This package contains all the different fragments and activities that are used i
 
 *   /com.example.usb/map/factory/
 
-	These factories pull information from the database and initialises them as objects.
+These factories pull information from the database and initialises them as objects.
 
 	- EdgeFactory:	Pulls information from database regarding edges.
 	- FloorFactory:	Pulls information from database regarding floors.
@@ -50,7 +50,7 @@ This package contains all the different fragments and activities that are used i
 
 *   /com.example.usb/map/graphelems/
 
-	Contains information regarding objects that form a graph.
+Contains information regarding objects that form a graph.
 
 	- Graph:	Holds all the nodes and edges of a floor.
 	- Edge:		Links nodes between each others with a given weight.
@@ -63,7 +63,7 @@ This package contains all the different fragments and activities that are used i
 	
 *   /com.example.usb/map/mapelems/
 
-	Contains information about rooms, floors and building.
+Contains information about rooms, floors and building.
 
 	- Building:	Used to represent a building as a whole, contains all floors and rooms as well as objects from graphelems.
 	- Floor:	Holds a reference of all rooms on that floor.
@@ -98,9 +98,9 @@ displays these nodes as a paths.
 
 In summary:
 
-	- The algorithm produces an array of all the nodes the user is going to go through.
-	- It separates the nodes by floor, keeping the order of the path.
-	- Place into the array lists of their respective floors, then reload the map with the current floor which should display the path.
+1. The algorithm produces an array of all the nodes the user is going to go through.
+2. It separates the nodes by floor, keeping the order of the path.
+3. Place into the array lists of their respective floors, then reload the map with the current floor which should display the path.
 
 *   Map objects
 
