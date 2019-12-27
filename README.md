@@ -11,13 +11,11 @@ Build project in Android Studio
 
 OR
 
-Install apk directly onto device
+-   Install apk directly onto device
 
 ### Package walkthrough
 
 *   /com.example.usb/
-
-This package contains all the different fragments and activities that are used in our application, such as the navigation, room search or contact page.
 
 	- About:	Information regarding the building such as facts.
 	- Contacts:	Contact information and timetable related to the USB.
@@ -30,6 +28,8 @@ This package contains all the different fragments and activities that are used i
 	- RoomPage:	Displays information about each room, such as room name, room number, occupants, etc.
 	- RoomSearch:	List of all the available rooms in the usb.
 
+This package contains all the different fragments and activities that are used in our application, such as the navigation, room search or contact page.
+
 *   /com.example.usb/database/
 
 	- DatabaseHelper: This class is used to open the database for reading and manipulating data using SQlite.
@@ -41,16 +41,14 @@ This package contains all the different fragments and activities that are used i
 
 *   /com.example.usb/map/factory/
 
-These factories pull information from the database and initialises them as objects.
-
 	- EdgeFactory:	Pulls information from database regarding edges.
 	- FloorFactory:	Pulls information from database regarding floors.
 	- NodeFactory:	Pulls information from database regarding nodes.
 	- RoomFactory:	Pulls information from database regarding rooms.
 
-*   /com.example.usb/map/graphelems/
+These factories pull information from the database and initialises them as objects.
 
-Contains information regarding objects that form a graph.
+*   /com.example.usb/map/graphelems/
 
 	- Graph:	Holds all the nodes and edges of a floor.
 	- Edge:		Links nodes between each others with a given weight.
@@ -61,13 +59,15 @@ Contains information regarding objects that form a graph.
 	- TransitNode:	Nodes that are not rooms used to traverse the graph.
 	- RoomNode:	Nodes that represent rooms the user is navigating to and from.
 	
-*   /com.example.usb/map/mapelems/
+Contains information regarding objects that form a graph.
 
-Contains information about rooms, floors and building.
+*   /com.example.usb/map/mapelems/
 
 	- Building:	Used to represent a building as a whole, contains all floors and rooms as well as objects from graphelems.
 	- Floor:	Holds a reference of all rooms on that floor.
 	- Room:		Holds information regarding a given room.
+
+Contains information about rooms, floors and building.
 
 *   /com.example.usb/map/other/
 
@@ -122,6 +122,10 @@ The app uses Dijkstra's algorithm and has been adapted to work with our current 
 It has also been modified to work when looking for paths across different floors and through different methods (stairs or lift).
 
 Base algorithm has been adapted from https://www.vogella.com/tutorials/JavaAlgorithmsDijkstra/article.html
+
+### Screenshots
+
+Please view the user guide or testing proof for screenshots of the app.
 
 ### Disclaimer
 
