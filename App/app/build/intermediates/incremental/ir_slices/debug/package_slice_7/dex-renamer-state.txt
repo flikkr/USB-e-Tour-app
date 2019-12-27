@@ -1,0 +1,4 @@
+#Tue Apr 30 20:11:09 BST 2019
+base.0=D\:\\Android Projects\\USB e-Tour\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
+path.0=classes.dex
+renamed.0=classes.dex

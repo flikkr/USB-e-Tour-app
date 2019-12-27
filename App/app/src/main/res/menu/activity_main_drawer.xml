@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main_page"
+            android:icon="@drawable/main"
+            android:title="@string/main_page" />
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/building_navigation">
+            <menu>
+                <item
+                    android:id="@+id/nav_building_navigation"
+                    android:icon="@drawable/buiding_navigation"
+                    android:title="@string/find_a_route" />
+                <item
+                    android:id="@+id/nav_finder"
+                    android:icon="@drawable/icon_finder"
+                    android:title="@string/search_rooms_or_people" />
+                <item
+                    android:id="@+id/nav_maps"
+                    android:icon="@drawable/icon_maps"
+                    android:title="@string/check_maps_nav" />
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="@string/urban_sciences_building_information">
+            <menu>
+                <item
+                    android:id="@+id/nav_location"
+                    android:icon="@drawable/location"
+                    android:title="@string/location" />
+                <item
+                    android:id="@+id/nav_contact"
+                    android:icon="@drawable/contact"
+                    android:title="@string/contacts" />
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/about"
+                    android:title="@string/about_usb" />
+
+
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/other">
+            <menu>
+                <item
+                    android:id="@+id/nav_website"
+                    android:icon="@drawable/icon_website"
+                    android:title="@string/visit_our_website" />
+
+            </menu>
+        </item>
+    </group>
+
+</menu>

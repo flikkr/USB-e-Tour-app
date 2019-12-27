@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">USB e-Tour</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_location_maps">Map</string>
+    <string name="title_activity_location">Map</string>
+    <string name="up">up</string>
+    <string name="down">down</string>
+    <string name="line_test">line test</string>
+    <string name="check_maps">Click on the arrows below to look-up floors!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search">Search</string>
+    <string name="destination">Destination:</string>
+    <string name="preferred_way">Preferred Way:</string>
+    <string name="starting_room">Starting Room</string>
+    <string name="clear">Clear</string>
+    <string name="reset">Reset</string>
+    <string name="n_a">N/A</string>
+    <string name="other">Other</string>
+    <string name="visit_our_website">Visit the Website</string>
+    <string name="about_usb">About USB</string>
+    <string name="contacts">Contacts</string>
+    <string name="location">Location</string>
+    <string name="urban_sciences_building_information">Urban Sciences Building Information</string>
+    <string name="check_maps_nav">Check Maps</string>
+    <string name="search_rooms_or_people">Search Rooms or People</string>
+    <string name="find_a_route">Find a Route</string>
+    <string name="building_navigation">Building Navigation</string>
+    <string name="main_page">Main Page</string>
+
+    <string-array name="about_usb">
+        <item>Bio &amp; Neurocomputing</item>
+        <item>Cloud computing</item>
+        <item>Cyber-physical systems</item>
+        <item>Cyber security</item>
+        <item>Data science</item>
+        <item>Data visualisation</item>
+        <item>Digital civics</item>
+        <item>Games engineering</item>
+        <item>Scalable computing</item>
+    </string-array>
+
+    <string-array name="about_facts">
+        <item>Opened in September 2017</item>
+        <item>Building costs totalling £58 million</item>
+        <item>12,500 square metres</item>
+        <item>Urban Sciences Building is the new location for the school of computing and a flagship for urban sustainability</item>
+        <item>PV-T array projected to generate 33,000 kWh/year of electrical and thermal energy. Projected CO2 savings: 19,798 kg/year. 48v DC office microgrid</item>
+        <item>Bio-dome using waste CO2 and heat from the building</item>
+        <item>560m2 wild flower meadow green roof</item>
+        <item>99.2% of construction waste from the project was recycled</item>
+        <item>Recipient of the BREEAM Innovation Credit that is awarded to buildings going beyond best practice in sustainability</item>
+        <item>Awarded the Newcastle Lord Mayor’s Design Award for Sustainability</item>
+        <item>Awarded an outstanding CEEQUAL Award for best practice in sustainable drainage</item>
+    </string-array>
+
+
+</resources>
