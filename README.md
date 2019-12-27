@@ -1,4 +1,6 @@
-1. 	Installation:
+# USB e-Tour app
+
+### Installation
 
 Build project in Android Studio
 -   Install latest version of Android Studio (3.4) and plug in device (Android 7.0 or higher)
@@ -11,11 +13,11 @@ OR
 
 Install apk directly onto device
 
-2. 	Package walkthrough:
+### Package walkthrough
 
 *   /com.example.usb/
 
-	This package contains all the different fragments and activities that are used in our application, such as the navigation, room search or contact page.
+This package contains all the different fragments and activities that are used in our application, such as the navigation, room search or contact page.
 
 	- About:	Information regarding the building such as facts.
 	- Contacts:	Contact information and timetable related to the USB.
@@ -75,7 +77,7 @@ Install apk directly onto device
 
 	- RoomRecyclerViewAdapter: Format for the list used in RoomSearch fragment.
 
-3.	Explanation behind the technology
+### Explanation behind the technology
 
 *   MapDrawer
 
@@ -96,11 +98,9 @@ displays these nodes as a paths.
 
 In summary:
 
-    - The algorithm produces an array of all the nodes the user is going to go through.
-
-    - It separates the nodes by floor, keeping the order of the path.
-
-    - Place into the array lists of their respective floors, then reload the map with the current floor which should display the path.
+	- The algorithm produces an array of all the nodes the user is going to go through.
+	- It separates the nodes by floor, keeping the order of the path.
+	- Place into the array lists of their respective floors, then reload the map with the current floor which should display the path.
 
 *   Map objects
 
@@ -123,7 +123,7 @@ It has also been modified to work when looking for paths across different floors
 
 Base algorithm has been adapted from https://www.vogella.com/tutorials/JavaAlgorithmsDijkstra/article.html
 
-4.	Disclaimer
+### Disclaimer
 
 This application was created in the context of an academic team project and served to prepare us for the different stages of real-life software development.
 
